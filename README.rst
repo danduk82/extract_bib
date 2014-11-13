@@ -26,7 +26,7 @@ To use it you need:
 
 
 - one *Bibtex* file with all your references. Important: the references entries must end with a line containing only the *}* character that closes the entry. This is normally the case if you use e.g. *Jabref* to manage your citations.
-- one *Latex* file. Use standard *natbib* commands, if you need custom commands, you will need to add them to the *BibtexCOMMANDLIST* global variable at the beginning of the script.
+- one *Latex* file. Use standard *natbib* commands, if you need custom commands, you will need to add them to the *BIBTEXCOMMANDLIST* global variable at the beginning of the script.
 
 
 Then run *extract_bib.py LatexFile BibtexFile* in a command line replacing *LatexFile*
